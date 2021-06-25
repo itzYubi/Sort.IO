@@ -1,0 +1,37 @@
+
+
+ .array-container {
+    position: absolute;
+    left: 100px;
+    bottom: 30px;
+    }
+  
+  .array-bar {
+    width: 8px;
+    display: inline-block;
+    margin: 0 1px;
+  }
+
+  .buton {
+display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #51d4bf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin: 0 1px;
+  }
+
+.buton:hover {background-color: #fa4169}
+
+.buton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
